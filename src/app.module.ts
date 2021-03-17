@@ -9,11 +9,11 @@ import { ImageModule } from './image/image.module';
 @Module({
   imports: [TypeOrmModule.forRoot({
     type: 'postgres',
-    host: 'localhost',
+    host: 'ec2-3-222-11-129.compute-1.amazonaws.com',
     port: 5432,
-    username: 'postgres',
-    password: 'admin654321',
-    database: 'practice',
+    username: 'mcweqqlajdtnpj',
+    password: '0bb2c90b36880ba4780d159c9bfee2dddda47cf9b603cdcaf069c19b28efd617',
+    database: 'd8pvmk362u8bif',
     entities: [__dirname + '/**/*.entity{.ts,.js}'],
     synchronize: true,
   }),
